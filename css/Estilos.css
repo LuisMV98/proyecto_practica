@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    flex: auto;
+    flex-flow: row wrap;
+}
+
+.titulo{
+    flex-basis: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size:large;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.elemento{
+    padding: 0px 4px;
+    font-size:larger;
+    flex: 50%;
+    font-weight: bold;
+    color: #1F618D;
+}
+
+img:not(.logo):not(.imag){
+    width: 100%;
+}
+
+.impar{
+    flex: 33%;
+}
+
+.imag{
+    width: 450px;
+}
+
+@media screen and (max-width: 900px){
+    .elemento{
+        flex: 100%;
+    }
+}
+
+
+/*---- tarjeta ----*/
+
+.tar-titulo{
+	border-radius: 70px;
+}
+
+.conte{
+    overflow-x: auto;
+}
+

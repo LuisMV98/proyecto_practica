@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/Estilos.css">
+</head>
+
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav class="blue darken-2">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="index.html" class="brand-logo"><img src="img/logo-generico.png" class="responsive-img logo" width="50px"></a>
+                    <a href="#" data-target="menu-responsivo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="pagina2.html">Página 2</a></li>
+                    <li><a href="pagina3.php">Página 3</a></li>
+                    </ul>
+                </div>
+            </div>   
+        </nav>
+    </div>  
+    <ul class="sidenav" id="menu-responsivo">
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="pagina2.html">Página 2</a></li>
+        <li><a href="pagina3.php">Página 3</a></li>
+    </ul> 
+    
+    <br><br>
+    <div class="row">
+        <div class="col s4">
+            <img src="img/muse.png" class="responsive-img imag">
+        </div>
+        <div class="col s4">
+            <video src="media/Muse-Uprising.mp4" controls="true" class="responsive-video"></video>
+        </div>
+        <div class="col s4">
+            <h5>MUSE - Plug In Baby:</h5>
+            <audio src="media/05 Plug In Baby.mp3" controls="true"></audio>
+        </div>
+    </div>   
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit();
+    });
+    </script>
+</body>
+
+
+</html>
